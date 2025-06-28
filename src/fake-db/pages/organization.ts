@@ -1,0 +1,68 @@
+export const db = [
+  {
+    id: 1,
+    name: "TechVentures Inc",
+    image_url: "/images/organizations/tech-ventures.png",
+    status: 1,
+    user: {
+      name: "John Smith",
+      email: "john@techventures.com",
+      phone: "+1-555-0123",
+      img_url: "/images/avatars/john-smith.jpg",
+    },
+    total_startups: 12,
+    cycles: [1, 2, 3],
+  },
+  {
+    id: 2,
+    name: "Green Innovation Labs",
+    image_url: "/images/organizations/green-labs.png",
+    status: 1,
+    user: {
+      name: "Sarah Wilson",
+      email: "sarah@greenlabs.com",
+      img_url: "/images/avatars/sarah-wilson.jpg",
+    },
+    total_startups: 8,
+    cycles: [1, 2],
+  },
+  {
+    id: 3,
+    name: "Digital Solutions Co",
+    status: 0,
+    user: {
+      name: "Mike Johnson",
+      phone: "+1-555-0456",
+      img_url: "/images/avatars/mike-johnson.jpg",
+    },
+    total_startups: 5,
+    cycles: [1],
+  },
+  {
+    id: 4,
+    name: "Future Dynamics",
+    image_url: "/images/organizations/future-dynamics.png",
+    status: 1,
+    user: {
+      name: "Emily Brown",
+      email: "emily@futuredynamics.com",
+      phone: "+1-555-0789",
+    },
+    total_startups: 15,
+    cycles: [1, 2, 3, 4],
+  },
+  {
+    id: 5,
+    name: "Global Innovators",
+    image_url: "/images/organizations/global-innovators.png",
+    status: 1,
+    user: {
+      name: "David Chen",
+      email: "david@globalinnovators.com",
+      phone: "+1-555-0321",
+      img_url: "/images/avatars/david-chen.jpg",
+    },
+    total_startups: 10,
+    cycles: [1, 2],
+  },
+];

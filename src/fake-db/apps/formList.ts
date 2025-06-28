@@ -1,0 +1,78 @@
+// Type Imports
+
+import { FormsType } from "@/types/apps/formsTypes";
+
+export const db: FormsType[] = [
+  {
+    form_id: "1",
+    form_name: "Employee Feedback",
+    assigned_organization: "HR Department",
+    submissions: 120,
+    last_modified: "2023-01-15",
+    created_date: "2022-12-01",
+    status: "active",
+  },
+  {
+    form_id: "2",
+    form_name: "Customer Survey",
+    assigned_organization: "Marketing Team",
+    submissions: 85,
+    last_modified: "2023-02-10",
+    created_date: "2023-01-05",
+    status: "active",
+  },
+  {
+    form_id: "3",
+    form_name: "Incident Report",
+    assigned_organization: "Safety Department",
+    submissions: 45,
+    last_modified: "2023-03-20",
+    created_date: "2023-02-15",
+    status: "inactive",
+  },
+  {
+    form_id: "4",
+    form_name: "Training Feedback",
+    assigned_organization: "Training Team",
+    submissions: 200,
+    last_modified: "2023-04-05",
+    created_date: "2023-03-01",
+    status: "active",
+  },
+  {
+    form_id: "5",
+    form_name: "Project Evaluation",
+    assigned_organization: "Project Management",
+    submissions: 60,
+    last_modified: "2023-05-12",
+    created_date: "2023-04-10",
+    status: "active",
+  },
+  {
+    form_id: "6",
+    form_name: "Customer Feedback",
+    assigned_organization: "Customer Support",
+    submissions: 150,
+    last_modified: "2023-06-01",
+    created_date: "2023-05-15",
+    status: "active",
+  },
+  {
+    form_id: "7",
+    form_name: "Product Feedback",
+    assigned_organization: "Sales Team",
+    submissions: 100,
+    last_modified: "2023-07-10",
+    created_date: "2023-06-20",
+    status: "inactive",
+  },
+  {
+    form_id: "8",
+    form_name: "Product Feedback",
+    assigned_organization: "Sales Team",
+    submissions: 100,
+    last_modified: "2023-07-10",
+    created_date: "2023-06-20",
+    status: "active",
+  },
+];
